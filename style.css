@@ -1,44 +1,33 @@
 body {
-  margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
   display: flex;
-  height: 100vh;
-}
-
-.left-half,
-.right-half {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex: 1;
-  padding: 20px;
-  color: #fff;
-  text-align: center;
-  cursor: pointer;
-
-}
-
-.left-half {
-  background-image: url('https://freepngimg.com/thumb/pokemon/20252-5-pokemon-transparent-background.png');
-  /* Replace with your image URL */
+  background-image: url('https://i.ibb.co/TWjN5WD/Untitled-Artwork-2023-12-01-08-04-42.jpg');
   background-size: cover;
-  background-color: #3498db;
-  /* Change the cursor to a pointer */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
 
 }
 
-.right-half {
-  background-image: url('https://freepngimg.com/thumb/pokemon/37574-7-legendary-pokemon.png');
-  /* Replace with your image URL */
-  background-size: cover;
-  background-color: #2ecc71;
-}
-
-.left-half h2,
-.left-half h3 {
-  margin-bottom: 0px;
-
-  /* Adjust the margin to bring headers closer together */
+.centered-text {
+  margin: 0;
+  /* Reset default margin to prevent unwanted space */
+  text-decoration: none;
+  /* Remove underline from the link */
+  padding: 10px;
+  /* Add padding for better visibility */
+  border: 4px solid #ffffff;
+  /* Add a border for better visibility */
+  box-shadow: 6px 5px 5px black;
+  color: #ffffff;
+  /* Set the text color to a shade of blue */
+  font-size: 48px;
+  /* Set the font size to 18 pixels */
+  font-family: serif, sans-serif;
+  font-weight: bold;
+  text-shadow: 5px 5px 6px rgb(6, 6, 6);
 }
