@@ -29,12 +29,15 @@ nav ul li a {
     color: rgb(255, 255, 255);
 }
 
-
-
+.Sole_Deities{
+    margin-bottom: auto;
+    
+}
 .Deities {
     padding-top: 100px;
     text-align: center;
     font-size: larger;
+
 
 }
 
@@ -64,6 +67,7 @@ nav ul li a {
     padding-left: 30px;
     padding-top: 20px;
 
+    padding-bottom: 150px;
 }
 
 .image1 {
@@ -96,6 +100,7 @@ nav ul li a {
     text-indent: 1.5em;
     /* Set the hanging indent */
     margin: 0;
+    margin-bottom: 15px;
 
 }
 
