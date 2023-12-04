@@ -32,22 +32,23 @@ nav ul li a {
 
 
 .Deities {
-    padding-top: 250px;
+    padding-top: 100px;
     text-align: center;
+    font-size: larger;
 
 }
 
 .spaced-header {
-    text-align: center;
     margin-right: 50px;
     margin-left: 50px;
     border: 2px solid #ffffff;
     box-shadow: 6px 5px 5px black;
     padding: 5px;
-    display: inline-block;
+    display: inline;
 }
 
 .wrapper_two {
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -55,6 +56,40 @@ nav ul li a {
 .wrapper {
     display: flex;
 
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+
+.image1 {
+    margin-left: 53px;
+    margin-right: 45px;
+}
+
+.image2 {
+    margin-left: 20px;
+    margin-right: 37px;
+
+}
+
+.image3 {
+    margin-left: 20px;
+    margin-right: 52px;
+}
+
+.image4 {
+    margin-left: 20px;
+    margin-right: 47px;
+}
+
+.image5 {
+    margin-left: 20px;
+    margin-right: 50px;
 }
 
 .hanging {
@@ -94,8 +129,9 @@ nav ul li a {
 
 .content {
     padding: 20px;
-    height: fit-content;
-    background: #abbd9a
+    height: auto;
+    background: #abbd9a;
+
 }
 
 .tab-content {
