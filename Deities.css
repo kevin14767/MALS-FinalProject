@@ -21,6 +21,15 @@
 #nahua {
     font-size: larger;
 }
+#video{
+    justify-content: center;
+    margin-left: 375px;
+}
+#video_title{
+    text-align: center;
+    justify-content: center;
+    
+}
 
 
 .Coatlicue {
